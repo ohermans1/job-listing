@@ -1,0 +1,23 @@
+.filter-item {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+
+  &__name {
+    padding: 0.8rem 1.5rem;
+    color: var(--primary-cyan);
+    background-color: var(--grayish-cyan-filt-tabs);
+  }
+
+  &__remove {
+    padding: 0.8rem 1rem;
+    color: var(--grayish-cyan-filt-tabs);
+    background-color: var(--primary-cyan);
+    cursor: pointer;
+    transition: var(--style-transition);
+    &:hover {
+      background-color: var(--v-dark-cyan);
+    }
+  }
+}

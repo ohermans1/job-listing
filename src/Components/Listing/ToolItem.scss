@@ -1,0 +1,27 @@
+.tool-item {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: flex-end;
+  width: 100%;
+
+  &__lang {
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    color: var(--primary-cyan);
+    background-color: var(--grayish-cyan-filt-tabs);
+    font-weight: 700;
+    cursor: pointer;
+    transition: var(--style-transition);
+    &:hover {
+      color: white;
+      background-color: var(--primary-cyan);
+    }
+  }
+
+  &__selected {
+    color: white;
+    background-color: var(--primary-cyan);
+  }
+}
